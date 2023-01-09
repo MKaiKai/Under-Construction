@@ -1,0 +1,11 @@
+.banner {
+  padding: 200px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

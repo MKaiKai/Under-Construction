@@ -6,26 +6,31 @@
   <!-- Javasctipt / BootstrapCDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- contact form -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="css/style.css">
   <!-- link to relevant stylesheets -->
   <link rel="import" href="services.html">
   <link rel="import" href="expectations.html">
   <link rel="import" href="faq.html">
   <link rel="import" href="contact.html">
 </head>
-
-<!-- <header> -->
+<!-- <header w/ navbar> -->
 <!-- <div class="m-2 p-0"> -->
 <div class="container-fluid -sm|-md|-lg|-xl|-xxl">
   <!-- NAVIGATION BAR with dropdown-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" style="color: rgb(20, 165, 165);">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary  sticky-top" style="color: rgb(20, 165, 165);">
     <a href="index.html">
-      <img src="images/EEU-logo.jpeg" alt="company logo" style="height: 12vh; width: auto; padding-right: 24px;">
+      <img src="images/EEU-logo.jpeg" alt="company logo"
+        style="height: 12vh; width: auto; border-radius: 50%; padding-right: 24px;">
     </a>
     <p style="font-size: 40px; color:rgb(20, 165, 165); padding-top: 16px; margin-right: 16px;"><i>Evolving &
-        Emerging U, PLLC</i></p>
+        Emerging U, PLLC </i></p>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon text-black"></span>
+      <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse ms-4" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -35,16 +40,19 @@
         <li class="nav-item">
           <a class="nav-link" href="expectations.html">What to Expect</a>
         </li>
-        <li class="dropdown active">
-          <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
             Services
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item active" href="services.html">I.V. Therapies</a></li>
+          <ul class="dropdown-menu active">
+            <li><a class="dropdown-item" href="services.html#aesthetics">Aesthetics</a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="services.html">Men's Health</a></li>
-            <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="services.html">Women's Health</a></li>
+            <li><a class="dropdown-item" href="services.html#iv_therapies">I.V. Therapy</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="services.html#health">Health</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -59,14 +67,138 @@
 <!-- </header> -->
 
 <body>
-  <!-- Small banner on top -->
+  <!-- Small banner on top with page's name -->
   <div class="bg-image mb-0"
     style="background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/012.webp');height: 25%;">
     <div class="d-flex justify-content-center align-items-center h-100">
-      <h1 class="text-white mb-0">Contact us </h1>
+      <h1 class="text-white mb-0">Contact Us </h1>
     </div>
   </div>
-  </div>
+
+  <!-- start of CONTACT US form -->
+  <section class="ftco-section p-2">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 text-center mb-5">
+          <h2 class="heading-section"></h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-12">
+          <div class="wrapper">
+            <div class="row no-gutters mb-5">
+              <div class="col-md-7">
+                <div class="contact-wrap w-100 p-md-5 p-4" style="background-color: rgb(74, 193, 193);">
+                  <h3 class="mb-4"></h3>
+                  <div id="form-message-warning" class="mb-4"></div>
+                  <div id="form-message-success" class="mb-4">
+                    Your message was sent, thank you!
+                  </div>
+                  <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="label" for="name">Full Name</label>
+                          <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="label" for="email">Email Address</label>
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label class="label" for="subject">Subject</label>
+                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label class="label" for="#">Message</label>
+                          <textarea name="message" class="form-control" id="message" cols="30" rows="4"
+                            placeholder="Message"></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="submit" value="Send Message" class="btn btn-primary">
+                          <div class="submitting"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="col-md-5 d-flex align-items-stretch">
+                <div id="map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.0885539312226!2d-95.53010548496604!3d29.68821218201335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c28fab6983f1%3A0x8ba275fe463f027c!2zODMxMyBTb3V0aHdlc3QgRnd5ICMzNTBiLCBIb3VzdG9uLCBUWCA3NzA3NCDjgqLjg6Hjg6rjgqvlkIjooYblm70!5e0!3m2!1sja!2sjp!4v1670337532915!5m2!1sja!2sjp"
+                    width="540" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-map-marker"></span>
+                  </div>
+                  <div class="text">
+                    <p><span></span> Southwest Freeway, Suite 350B,Houston, Texas 77074</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-phone"></span>
+                  </div>
+                  <div class="text">
+                    <p><span></span> <a href="tel://1234567920">(346) 541-8588</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-paper-plane"></span>
+                  </div>
+                  <div class="text">
+                    <p><span></span> <a href="mailto:info@evolvingandemergingu.com">info@evolvingandemergingu.com</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-globe"></span>
+                  </div>
+                  <div class="text">
+                    <p><span></span> <a href="#">evolvingandemergingu.com</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
 
   <!-- bootstrap cdn -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -76,4 +208,12 @@
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
     crossorigin="anonymous"></script>
 </body>
-</div>
+
+<!-- FOOTER Copyright -->
+<footer>
+  <div class="d-flex justify-content-center p-3" style="background-color: rgb(102, 177, 194);">
+    © 2023 Copyright :
+    <a class="text-white" href="https://evolvingandemergingu.com/"> Evolving and Emerging U</a>
+    <!-- Copyright -->
+  </div>
+</footer>

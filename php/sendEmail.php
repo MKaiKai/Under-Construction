@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$to = 'louiejiemahusay@gmail.com';
+$to = 'info@evolvingandemergingu.com';
 
 function url(){
   return sprintf(

@@ -12,42 +12,46 @@
 </head>
 
 <!-- <header> -->
-<!-- <div class="m-2 p-0"> -->
-<!-- <div class="container-fluid -sm|-md|-lg|-xl|-xxl"> -->
 <!-- NAVIGATION BAR with dropdown-->
-<nav class="navbar navbar-expand-lg bg-body-tertiary  sticky-top" style="color: rgb(20, 165, 165);">
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style="color: rgb(20, 165, 165); font-size: 16px;">
   <a href="index.html">
-    <img src="images/EEU-logo.jpeg" alt="company logo"
-      style="height: 12vh; width: auto; border-radius: 50%; padding-right: 24px;">
+    <img src="images/EEU-logo.jpeg" alt="company logo" style="height: 12vh; width: auto; padding-right: 24px;">
   </a>
-  <p style="font-size: 40px; color:rgb(20, 165, 165); padding-top: 16px; margin-right: 16px;"><i>Evolving &
-      Emerging U, PLLC</i></p>
+  <p style="font-size: 24px; color:rgb(20, 165, 165); padding-top: 16px; padding-right: 32px; margin-right: 16px;">
+    <i>Evolving & Emerging U, PLLC</i>
+  </p>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon text-black"></span>
   </button>
   <div class="collapse navbar-collapse ms-4" id="navbarSupportedContent">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="padding-left: 2px; padding-right: 4px;">
       <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="expectations.html">What to Expect</a>
+        <a class="nav-link" href="index.html#about">About</a>
       </li>
-      <li class="nav-item dropdown active">
+      <li class="dropdown active">
         <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">
+          aria-expanded="true">
           Services
         </a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item active" href="services.html#aesthetics">Aesthetics</a></li>
-          <li><a class="dropdown-item" href="services.html#iv_therapies">I.V. Therapies</a></li>
-          <hr class="dropdown-divider">
-          <li>
-            <hr class="dropdown-divider">
+          <li><a class="dropdown-item" href="services.html#iv_therapies">IV Therapy</a>
           </li>
-          <li><a class="dropdown-item" href="services.html#health">Health</a></li>
+          <hr class="dropdown-divider">
+          <li><a class="dropdown-item" href="services.html#hrt">Hormone Replacement Therapy</a></li>
+          <hr class="dropdown-divider">
+          <li><a class="dropdown-item" href="services.html#weight-loss">Weight Loss</a></li>
+          <hr class="dropdown-divider">
+          <li><a class="dropdown-item" href="services.html#telemedicine">Telemedicine</a></li>
+          <hr class="dropdown-divider">
+          <li><a class="dropdown-item" href="services.html#aesthetics">Aesthetics</a></li>
         </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="expectations.html">What to Expect</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="faq.html">FAQs</a>
@@ -55,12 +59,14 @@
       <li class="nav-item">
         <a class="nav-link" href="contact.html">Contact Us</a>
       </li>
+  </div>
+  <li class="nav-item my-2" style="list-style: none; margin-right: 16px;">
+    <span class="fa fa-phone"> 346-541-8588</span>
+  </li>
 </nav>
-<!-- </div> -->
-<!-- </div> -->
 <!-- </header> -->
 
-<body style="background-color: rgb(139, 200,200);">
+<body style="background-color: #7ED7E3;">
   <!-- small banner on top with page's name -->
   <div class="bg-image mb-0"
     style="background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/012.webp');height: 25%;">
@@ -70,43 +76,60 @@
   </div>
 
   <!-- container for cards -->
-  <div class="container my-5" style="background-color: rgb(135, 202, 202);">
+  <div class="container my-5" style="">
     <ul class=" card p-4" style="list-style: none; font-size: 24px; color: rgb(9, 127, 127);">
-      <p style="font-size: 24px;"><strong>Initial Consultation</strong></p>
+      <p style="font-size: 24px;"><strong>IV Therapy</strong></p>
       <ul class="card p-3 mb-3" style="list-style: none; border-width: 3px; box-shadow: 0 0 15px rgba(6, 96, 79, 0.2);">
-        <p style="font-size: 16px;"> <strong> At your initial consultation the following can be expected at your initial
-            consultation:</strong> <br>
+        <p style="font-size: 16px;"> <strong> At your initial consultation,</strong> your clinician will discuss your
+          primary concern, review your medical history, necessary labs that will be
+          either order or evaluate your most current labs, and your candidacy to determine the most appropriate IV
+          therapy options.<br>
           <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;">
-            In addition to ..... </li>
+          </li>
           <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
-            <strong> <i>Consulation length: </i></strong>
+            <strong> <i>Consulation length: </i></strong> Receiving an IV can take from 45 minutes to 2 hours, depending
+            on treatment. You should be well hydrated and have eaten a full meal prior to the treatment.
             <br>
             <br>
-            <strong><i>Payment </i></strong> acceptable forms of payment are .....
+            You are monitored the entire time for safety, but you’re free to read, browse your phone, or listen to music
+            during your IV therapy sessions. 
+            <br>
+            <br>
+            <strong><i>Payment: </i></strong> We do accept all major credit cards, debit cards, cash, Zelle, HSA, and
+            FSA
           </li>
         </p>
       </ul>
-      <p style="font-size: 24px; margin-top: 16px; margin-bottom: 0;"><strong> Services Appointment </strong> </p>
+      <p style="font-size: 24px; margin-top: 16px; margin-bottom: 0;"><strong> BHRT [Bio-identical Hormone Replacement
+          Therapy] </strong> </p>
       <ul class="card p-3 my-3" style="list-style: none; border-width: 3px; box-shadow: 0 0 15px rgba(6, 96, 79, 0.2);">
-        <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> At your first services appointment the
-          following can be expected:
-        <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;">
-          <ol>first bullet point</ol>
-          <ol>second</ol>
-          <ol>third</ol>
+        <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> <strong>Initial Consultation</strong> a
+          comprehensive review of your health history, order comprehensive labs that include thyroid panel, cholesterol
+          panel, metabolic panel, complete blood count, hormone levels, and go over the BHRT treatment plan.
+        <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> <strong>Follow-up in 4 weeks:</strong> To
+          review improvement of symptoms, and adjustment of treatment accordingly with consideration of any needed
+          labs/or evaluation of pellet treatment
+        </li>
+        <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> <strong>Follow up in 3-6 months:</strong>
+          To review improvement of symptoms, and adjustment of treatment accordingly with consideration of any needed
+          labs/or evaluation of pellet treatment.
         </li>
         <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px"> <strong> <i>Appointment length:
             </i></strong><br><br>
           <strong><i>Payment </i></strong> acceptable forms of payment are .....
         </li>
       </ul>
-      <p style="font-size: 24px;"><strong> Another section </strong> </p>
+      <p style="font-size: 24px;"><strong> Weight Loss </strong> </p>
       <ul class="card p-3" style="list-style: none; border-width: 3px; box-shadow: 0 0 15px rgba(6, 96, 79, 0.2);">
         <li style="font-size: 16px; padding-left: 24px; margin-top: 16px; margin-bottom: 0;"> <strong>
-            Additional information to know about visit:
-          </strong>
+            Initial Consultation:</strong>
+          <br>
+          <br>
         <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;">
-          In addition to ..... </li>
+          <strong>Follow-up</strong>
+          <br>
+          <br>
+        </li>
         <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
           <strong> <i>Length: </i></strong>
           <br>
@@ -126,32 +149,19 @@
 
 <footer>
   <!-- Copyright -->
-  <table class="d-flex justify-content-center p-3" style="background-color: rgb(102, 177, 194);">
+  <table class="d-flex justify-content-center p-3" style="background-color: #0ec1e4;">
     <tr>
       <td class="m-2">
         © 2023 Copyright :
-        <a class="text-white" href="https://evolvingandemergingu.com/"> Evolving and Emerging U</a>
+        <a class="text-white" href="https://evolvingandemergingu.com/"> Evolving and Emerging U, PLLC</a>
       </td>
       <td class="m-2">
         <span class="mb-4">
-          <!-- Facebook -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
-          <!-- Twitter -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
-          <!-- Google -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
-          <!-- Instagram -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
-          <!-- Linkedin -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+
         </span>
       </td>
     </tr>
+    <a href="">ADA link goes here</a>
   </table>
+
 </footer>
-</div>

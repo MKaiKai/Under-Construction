@@ -2,52 +2,62 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EEU- Services</title>
+  <title>Evolving & Emerging U, PLLC</title>
+  <!-- Javascript / Bootstrat CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="css/style.css">
   <link rel="import" href="services.html">
   <link rel="import" href="expectations.html">
   <link rel="import" href="faq.html">
   <link rel="import" href="contact.html">
+  <!-- contact form -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <!-- <header> -->
-<!-- <div class="m-2 p-0"> -->
-<!-- <div class="container-fluid -sm|-md|-lg|-xl|-xxl"> -->
 <!-- NAVIGATION BAR with dropdown-->
-<nav class="navbar navbar-expand-lg bg-body-tertiary  sticky-top pb-6" style="color: rgb(20, 165, 165);">
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style="color: rgb(20, 165, 165); font-size: 16px;">
   <a href="index.html">
-    <img src="images/EEU-logo.jpeg" alt="company logo"
-      style="height: 12vh; width: auto; border-radius: 50%; padding-right: 24px;">
+    <img src="images/EEU-logo.jpeg" alt="company logo" style="height: 12vh; width: auto; padding-right: 24px;">
   </a>
-  <p style="font-size: 40px; color:rgb(20, 165, 165); padding-top: 16px; margin-right: 16px;"><i>Evolving &
-      Emerging U, PLLC</i></p>
+  <p style="font-size: 24px; color:rgb(20, 165, 165); padding-top: 16px; padding-right: 32px; margin-right: 16px;">
+    <i>Evolving & Emerging U, PLLC</i>
+  </p>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon text-black"></span>
   </button>
   <div class="collapse navbar-collapse ms-4" id="navbarSupportedContent">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="padding-left: 2px; padding-right: 4px;">
       <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="expectations.html">What to Expect</a>
+        <a class="nav-link" href="index.html#about">About</a>
       </li>
-      <li class="nav-item dropdown active">
+      <li class="dropdown active">
         <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown"
           aria-expanded="false">
           Services
         </a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item active" href="services.html">I.V. Therapies</a></li>
-          <li><a class="dropdown-item" href="services.html">Men's Health</a></li>
-          <hr class="dropdown-divider">
-          <li>
-            <hr class="dropdown-divider">
+          <li><a class="dropdown-item" href="services.html#iv_therapies">IV Therapy</a>
           </li>
-          <li><a class="dropdown-item" href="services.html">Women's Health</a></li>
+          <hr class="dropdown-divider">
+          <li><a class="dropdown-item" href="services.html#hrt">Hormone Replacement Therapy</a></li>
+          <hr class="dropdown-divider">
+          <li><a class="dropdown-item" href="services.html#weight-loss">Weight Loss</a></li>
+          <hr class="dropdown-divider">
+          <li><a class="dropdown-item" href="services.html#telemedicine">Telemedicine</a></li>
+          <hr class="dropdown-divider">
+          <li><a class="dropdown-item" href="services.html#aesthetics">Aesthetics</a></li>
         </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="expectations.html">What to Expect</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="faq.html">FAQs</a>
@@ -55,12 +65,14 @@
       <li class="nav-item">
         <a class="nav-link" href="contact.html">Contact Us</a>
       </li>
+  </div>
+  <li class="nav-item my-2" style="list-style: none; margin-right: 16px;">
+    <span class="fa fa-phone"> 346-541-8588 </span>
+  </li>
 </nav>
-<!-- </div> -->
-<!-- </div> -->
 <!-- </header> -->
 
-<body style="background-color: rgb(139, 202, 202);">
+<body style="background-color: #7ED7E3;">
   <div class="bg-image mb-0"
     style="background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/012.webp');height: 25%;">
     <div class="d-flex justify-content-center align-items-center h-100">
@@ -68,16 +80,24 @@
     </div>
   </div>
   <!-- start of faq cards for each q&a -->
-  <div class="container my-5" style="background-color: rgb(139, 202, 202)">
+  <div class="container my-5" style="">
     <ul class="card p-4" style="font-size: 32px; color: rgb(9, 127, 127); ">
       <p style="font-size: 24px;"><strong>Frequently Asked Questions </strong></p>
       <ul class="card p-3 my-3" style="list-style: none; border-width: 3px; box-shadow: 0 0 15px rgba(6, 96, 79, 0.2);">
-        <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> Q1:</li>
-        <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> A1:</li>
+        <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px; font-weight: bold;"> Q1: What insurances do
+          you accept? </li>
+        <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> A1: Currently, we do not accept insurance.
+          We do accept all major credit cards, debit cards, cash, Zelle, HSA, and FSA! Care credit. </li>
       </ul>
       <ul class="card p-3 my-3" style="list-style: none; border-width: 3px; box-shadow: 0 0 15px rgba(6, 96, 79, 0.2);">
-        <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> Q2:</li>
-        <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> A2:</li>
+        <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px; font-weight: bold;"> Q2:What is your policy
+          on cancellation or
+          missed appointments? </li>
+        <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> A2:Your appointment time is reserved just
+          for you. A late cancellation or missed visit is a missed opportunity for another client to experience our
+          excellent services. As such, we require 24-hour notice for any cancellations or changes to your appointment.
+          Patients who provide less than 24 hours’ notice, or miss their appointment, the deposit will be non-refunda
+        </li>
       </ul>
       <ul class="card p-3 my-3" style="list-style: none; border-width: 3px; box-shadow: 0 0 15px rgba(6, 96, 79, 0.2);">
         <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> Q3:</li>
@@ -115,33 +135,22 @@
 </body>
 
 <footer>
-  <table class="d-flex justify-content-center p-3" style="background-color: rgb(102, 177, 194);">
+  <!-- Copyright -->
+  <table class="d-flex justify-content-center p-3" style="background-color: #0ec1e4;">
     <tr>
       <td class="m-2">
         © 2023 Copyright :
-        <a class="text-white" href="https://evolvingandemergingu.com/"> Evolving and Emerging U</a>
+        <a class="text-white" href="https://evolvingandemergingu.com/"> Evolving and Emerging U, PLLC</a>
       </td>
       <td class="m-2">
         <span class="mb-4">
-          <!-- Facebook -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
-          <!-- Twitter -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
-          <!-- Google -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
-          <!-- Instagram -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
-          <!-- Linkedin -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+
         </span>
       </td>
     </tr>
+    <a href="">ADA link goes here</a>
   </table>
+
 </footer>
 
 <!-- Copyright -->

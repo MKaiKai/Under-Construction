@@ -11,42 +11,47 @@
   <link rel="import" href="contact.html">
 </head>
 
-<!-- <header w/ navbar> -->
-<!-- <div class="m-2 p-0"> -->
-<!-- <div class="container-fluid -sm|-md|-lg|-xl|-xxl"> -->
+<!-- <header> -->
 <!-- NAVIGATION BAR with dropdown-->
-<nav class="navbar navbar-expand-lg bg-body-tertiary  sticky-top" style="color: rgb(20, 165, 165);">
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style="color: rgb(20, 165, 165); font-size: 16px;">
   <a href="index.html">
-    <img src="images/EEU-logo.jpeg" alt="company logo"
-      style="height: 12vh; width: auto; border-radius: 50%; padding-right: 24px;">
+    <img src="images/EEU-logo.jpeg" alt="company logo" style="height: 12vh; width: auto; padding-right: 24px;">
   </a>
-  <p style="font-size: 40px; color:rgb(20, 165, 165); padding-top: 16px; margin-right: 16px;"><i>Evolving & Emerging U,
-      PLLC </i></p>
+  <p style="font-size: 24px; color:rgb(20, 165, 165); padding-top: 16px; padding-right: 32px; margin-right: 16px;">
+    <i>Evolving & Emerging U, PLLC</i>
+  </p>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon text-black"></span>
   </button>
   <div class="collapse navbar-collapse ms-4" id="navbarSupportedContent">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="padding-left: 2px; padding-right: 4px;">
       <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="expectations.html">What to Expect</a>
+        <a class="nav-link" href="index.html#about">About</a>
       </li>
       <li class="dropdown active">
-        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown"
+          aria-expanded="true">
           Services
         </a>
-        <ul class="dropdown-menu ">
-          <li><a class="dropdown-item" href="services.html#aesthetics">Aesthetics</a></li>
-          <hr class="dropdown-divider">
-          <li><a class="dropdown-item" href="services.html#iv_therapies">I.V. Therapy</a></li>
-          <li>
-            <hr class="dropdown-divider">
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="services.html#iv_therapies">IV Therapy</a>
           </li>
-          <li><a class="dropdown-item" href="services.html#health">Health</a></li>
+          <hr class="dropdown-divider">
+          <li><a class="dropdown-item" href="services.html#hrt">Hormone Replacement Therapy</a></li>
+          <hr class="dropdown-divider">
+          <li><a class="dropdown-item" href="services.html#weight-loss">Weight Loss</a></li>
+          <hr class="dropdown-divider">
+          <li><a class="dropdown-item" href="services.html#telemedicine">Telemedicine</a></li>
+          <hr class="dropdown-divider">
+          <li><a class="dropdown-item" href="services.html#aesthetics">Aesthetics</a></li>
         </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="expectations.html">What to Expect</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="faq.html">FAQs</a>
@@ -54,98 +59,28 @@
       <li class="nav-item">
         <a class="nav-link" href="contact.html">Contact Us</a>
       </li>
+  </div>
+  <li class="nav-item my-2" style="list-style: none; margin-right: 16px;">
+    <span class="fa fa-phone"> 346-541-8588</span>
+  </li>
 </nav>
 <!-- </header> -->
 
-<body style="background-color: rgb(139, 200, 200);">
+<body style="background-color: #7ED7E3;">
   <!-- Small banner on top with page's name -->
-  <div class="bg-image mb-0"
+  <div class="bg-image mb-0 d-flex justify-content-center align-items-center text-center"
     style="background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/012.webp');height: 25%;">
-    <div class="d-flex justify-content-center align-items-center h-100">
-      <h1 class="text-white mb-0">Available Services </h1>
+    <div class=" ">
+      <h1 class="text-white mb-0">Services </h1>
     </div>
   </div>
 
 
-  <!-- aesthetics services card and text -->
-  <div class="container my-5" style="background-color: rgb(135, 202, 202);">
-    <ul class="card p-4" style="list-style: none; font-size: 24px; color: rgb(9, 127, 127);">
-      <p id="aesthetics"><strong> Aesthetics Services</strong></p>
-      <ul class="card p-3 my-3" style="list-style: none; border-width: 3px; box-shadow: 0 0 15px rgba(6, 96, 79, 0.2);">
-        <p style="font-size: 16px;"> <strong> Chemical Peel </strong> is a technique used to improve the appearance
-          of the skin on the face, neck or
-          hands. <br>
-          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;">
-            A chemical solution is applied to the skin that causes it to exfoliate and eventually peel
-            off the new, regenerated skin is usually smoother and less wrinkled than the old skin. The new
-            skin is also temporarily more sensitive to the sun. The chemical peels are brief procedures that
-            require very little recovery time, although multiple treatments are usually necessary to achieve
-            the best results.
-          </li>
-          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
-            <strong> <i>Benefits</i></strong> for acne scars, aging skin, melasma, hyperpigmentation, crow’s feet,
-            wrinkles, sagging skin, and sun damaged skin.
-            <br>
-            <br>
-            <strong><i>Target audience</i></strong> is
-            ethnicity skin tones
-            specifically those with uneven skin tone due to hyperpigmentation.
-          </li>
-        </p>
-      </ul>
-      <ul class="card p-3 my-3"
-        style="list-style: none; border-width: 3px; box-shadow: 0 0 15px rgba(2, 118, 96, 0.2);;">
-        <p style="font-size: 16px;"> <strong> Microneedling </strong> is a minimally invasive procedure that involves
-          superficial controlled puncturing of the skin at a set depth with fine needles that creates channels in the
-          skin. <br>
-          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> Overall skin
-            texture improvement happens over time and uses the body’s wound healing response to form
-            new structures in the skin like collagen and elastin.
-            These lead to a more youthful appearance
-            and can decrease the appearance of fine lines and textural irregularities. It is a 30-minute office
-            visit and a topical anesthetic is used.
-          </li>
-          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
-            <strong> <i>Benefits</i></strong>for acne scars, hyperpigmentation, melasma,
-            scars, stretch marks.
-            <br>
-            <br>
-            <strong><i> Target audience </i></strong> is ethnicity skin tones specifically those
-            with uneven skin
-            tone due to hyperpigmentation.
-          </li>
-        </p>
-      </ul>
-      <ul class="card p-3 my-3"
-        style="list-style: none; border-width: 3px; box-shadow: 0 0 15px rgba(2, 118, 96, 0.2);;">
-        <p style="font-size: 16px;"> <strong> Neurotoxins/Neuromodulators </strong> are wrinkle relaxing injections of
-          botulinum toxin-commercially known as Botox, Xeomin, Dysport, Jeuveau-that are used to treat wrinkles, frown
-          lines and
-          crow's feet.<br>
-          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> A minute amount of the neurotoxins is
-            injected directly into the underlying muscle,
-            causing it to relax and gradually smooth out the appearance of the overlying skin. The effects
-            typically last three months. Also FDA-approved to treat excessive sweating.
-          </li>
-          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
-            <strong> <i>Benefits</i></strong> for
-            wrinkles, crow’s feet, aging skin, sagging skin, frown lines and forehead furrows, and excessive
-            sweating.
-            <br>
-            <br>
-            <strong><i> Target audience </i></strong> is all person
-            wanting to smooth and diminish wrinkles
-          </li>
-        </p>
-        <!-- end of Aesthetics <ul></ul> -->
-      </ul>
-  </div>
-
   <!-- iv therapy services card and text -->
-  <div class="container my-5">
+  <div class="container my-5" id="iv_therapies">
     <ul class="card p-4" style="list-style: none; font-size: 24px; color: rgb(9, 127, 127);">
-      <p id="iv_therapies"><strong> I.V. Therapies </strong></p>
-      <ul class="card p-3 my-3" style="list-style: none; border-width: 3px; box-shadow: 0 0 15px rgba(6, 96, 79, 0.2);">
+      <p><strong> IV Therapy </strong></p>
+      <ul class="p-3 my-3" style="list-style: none; border-width: 3px;">
         <p style="font-size: 16px;"> <strong> IV Nutrition Therapy </strong> is a medical treatment by which sterile
           solutions of vitamins, minerals, and micronutrients are infused directly into the veins of the
           patient.
@@ -165,8 +100,7 @@
           </li>
         </p>
       </ul>
-      <ul class="card p-3 my-3"
-        style="list-style: none; border-width: 3px; box-shadow: 0 0 15px rgba(2, 118, 96, 0.2);;">
+      <ul class="p-3 my-3" id="hrt" style="list-style: none; border-width: 3px;">
         <p style="font-size: 16px;"> <strong> Bio-identical Hormone Replacement Therapy </strong> is the use of
           bio-identical hormones that have exactly the same chemical and molecular structure as hormones that are
           produced in the human body.
@@ -191,14 +125,197 @@
           </li>
         </p>
       </ul>
-      <ul class="card p-3 my-3"
-        style="list-style: none; border-width: 3px; box-shadow: 0 0 15px rgba(2, 118, 96, 0.2);;">
+      <ul class="p-3 my-3" style="list-style: none; border-width: 3px;">
         <p style="font-size: 16px;"> <strong> Neurotoxins/Neuromodulators </strong> are wrinkle relaxing injections
           of botulinum toxin-commercially known as Botox, Xeomin, Dysport, Jeuveau-that are used to treat wrinkles,
           frown lines and crow's feet.<br>
           <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> A minute amount of the neurotoxins
             is injected directly into the underlying muscle, causing it to relax and gradually smooth out the
             appearance of the overlying skin. The effects
+            typically last three months. Also FDA-approved to treat excessive sweating.
+          </li>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
+            <strong> <i>Benefits</i></strong> for
+            wrinkles, crow’s feet, aging skin, sagging skin, frown lines and forehead furrows, and excessive
+            sweating.
+            <br>
+            <br>
+            <strong><i> Target audience </i></strong> is all person
+            wanting to smooth and diminish wrinkles
+          </li>
+        </p>
+        <!-- end of IV Therapy <ul></ul> -->
+      </ul>
+  </div>
+
+  <!-- WEIGHT LOSS card and text -->
+  <div class="container my-5" id="weight-loss" style="">
+    <ul class="card p-4" style="list-style: none; font-size: 24px; color: rgb(9, 127, 127);">
+      <p><strong> Weight Loss</strong></p>
+      <ul class=" p-3 my-3" style="list-style: none; border-width: 3px;">
+        <p style="font-size: 16px;"> <strong> Weigh Loss </strong> is a technique used to <br>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel aliquam totam laborum beatae, nemo ipsa iusto
+            distinctio omnis autem debitis asperiores ex eaque sapiente illum aut optio reprehenderit doloremque fugit!
+            Eum laudantium sint necessitatibus error quis amet aut libero veritatis facere fuga corrupti perspiciatis,
+            nobis, ad, expedita optio. Eius dicta quo quidem quas sunt odio doloremque earum neque iure quibusdam.
+            Illo esse alias eligendi, nulla officia neque itaque ullam soluta laudantium voluptates at recusandae
+            mollitia accusamus quibusdam nam veniam laboriosam, reprehenderit nisi ea nobis numquam sapiente dolore
+            blanditiis! Odit, nam?
+          </li>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
+            <strong> <i>Benefits</i></strong> for .
+            <br>
+            <br>
+            <strong><i>Target audience</i></strong> is
+            .
+          </li>
+        </p>
+      </ul>
+      <ul class=" p-3 my-3" style="list-style: none; border-width: 3px;">
+        <p style="font-size: 16px;"> <strong> Weight Loss </strong> is <br>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Assumenda nobis in sint quidem ad blanditiis, a totam, ut expedita laudantium aperiam.
+            Error, unde quia! Eaque illo nobis quod suscipit in?
+          </li>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
+            <strong> <i>Benefits</i></strong>for
+            <br>
+            <br>
+            <strong><i> Target audience </i></strong> is
+          </li>
+        </p>
+      </ul>
+      <ul class="p-3 my-3" style="list-style: none; border-width: 3px; ">
+        <p style="font-size: 16px;"> <strong> Weight Loss </strong> are <br>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Obcaecati modi nesciunt rem magni debitis? Debitis deleniti natus aliquid dicta doloribus
+            quod autem, voluptatem commodi doloremque suscipit vero quidem a tenetur.
+          </li>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
+            <strong> <i>Benefits</i></strong> for
+
+            <br>
+            <br>
+            <strong><i> Target audience </i></strong> is
+          </li>
+        </p>
+        <!-- end of Weight Loss <ul></ul> -->
+      </ul>
+  </div>
+
+  <!--Telemedicine card and text -->
+  <div class="container my-5" id="telemedicine" style="">
+    <ul class="card p-4" style="list-style: none; font-size: 24px; color: rgb(9, 127, 127);">
+      <p><strong>Telemedicine</strong></p>
+      <ul class=" p-3 my-3" style="list-style: none; border-width: 3px;">
+        <p style="font-size: 16px;"> <strong> Telemedicine </strong> is a technique used to <br>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel aliquam totam laborum beatae, nemo ipsa iusto
+            distinctio omnis autem debitis asperiores ex eaque sapiente illum aut optio reprehenderit doloremque fugit!
+            Eum laudantium sint necessitatibus error quis amet aut libero veritatis facere fuga corrupti perspiciatis,
+            nobis, ad, expedita optio. Eius dicta quo quidem quas sunt odio doloremque earum neque iure quibusdam.
+            Illo esse alias eligendi, nulla officia neque itaque ullam soluta laudantium voluptates at recusandae
+            mollitia accusamus quibusdam nam veniam laboriosam, reprehenderit nisi ea nobis numquam sapiente dolore
+            blanditiis! Odit, nam?
+          </li>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
+            <strong> <i>Benefits</i></strong> for .
+            <br>
+            <br>
+            <strong><i>Target audience</i></strong> is
+            .
+          </li>
+        </p>
+      </ul>
+      <ul class=" p-3 my-3" style="list-style: none; border-width: 3px;">
+        <p style="font-size: 16px;"> <strong>Telemedicine </strong> is <br>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Assumenda nobis in sint quidem ad blanditiis, a totam, ut expedita laudantium aperiam.
+            Error, unde quia! Eaque illo nobis quod suscipit in?
+          </li>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
+            <strong> <i>Benefits</i></strong>for
+            <br>
+            <br>
+            <strong><i> Target audience </i></strong> is
+          </li>
+        </p>
+      </ul>
+      <ul class="p-3 my-3" style="list-style: none; border-width: 3px; ">
+        <p style="font-size: 16px;"> <strong>Telemedicine </strong> are <br>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Obcaecati modi nesciunt rem magni debitis? Debitis deleniti natus aliquid dicta doloribus
+            quod autem, voluptatem commodi doloremque suscipit vero quidem a tenetur.
+          </li>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
+            <strong> <i>Benefits</i></strong> for
+
+            <br>
+            <br>
+            <strong><i> Target audience </i></strong> is
+          </li>
+        </p>
+        <!-- end ofTelemedicine <ul></ul> -->
+      </ul>
+  </div>
+
+  <!-- aesthetics services card and text -->
+  <div class="container my-5" id="aesthetics" style="">
+    <ul class="card p-4" style="list-style: none; font-size: 24px; color: rgb(9, 127, 127);">
+      <p><strong> Aesthetics</strong></p>
+      <ul class=" p-3 my-3" style="list-style: none; border-width: 3px;">
+        <p style="font-size: 16px;"> <strong> Chemical Peel </strong> is a technique used to improve the appearance
+          of the skin on the face, neck or
+          hands. <br>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;">
+            A chemical solution is applied to the skin that causes it to exfoliate and eventually peel
+            off the new, regenerated skin is usually smoother and less wrinkled than the old skin. The new
+            skin is also temporarily more sensitive to the sun. The chemical peels are brief procedures that
+            require very little recovery time, although multiple treatments are usually necessary to achieve
+            the best results.
+          </li>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
+            <strong> <i>Benefits</i></strong> for acne scars, aging skin, melasma, hyperpigmentation, crow’s feet,
+            wrinkles, sagging skin, and sun damaged skin.
+            <br>
+            <br>
+            <strong><i>Target audience</i></strong> is
+            ethnicity skin tones
+            specifically those with uneven skin tone due to hyperpigmentation.
+          </li>
+        </p>
+      </ul>
+      <ul class=" p-3 my-3" style="list-style: none; border-width: 3px;">
+        <p style="font-size: 16px;"> <strong> Microneedling </strong> is a minimally invasive procedure that involves
+          superficial controlled puncturing of the skin at a set depth with fine needles that creates channels in the
+          skin. <br>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> Overall skin
+            texture improvement happens over time and uses the body’s wound healing response to form
+            new structures in the skin like collagen and elastin.
+            These lead to a more youthful appearance
+            and can decrease the appearance of fine lines and textural irregularities. It is a 30-minute office
+            visit and a topical anesthetic is used.
+          </li>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
+            <strong> <i>Benefits</i></strong>for acne scars, hyperpigmentation, melasma,
+            scars, stretch marks.
+            <br>
+            <br>
+            <strong><i> Target audience </i></strong> is ethnicity skin tones specifically those
+            with uneven skin
+            tone due to hyperpigmentation.
+          </li>
+        </p>
+      </ul>
+      <ul class="p-3 my-3" style="list-style: none; border-width: 3px; ">
+        <p style="font-size: 16px;"> <strong> Neurotoxins/Neuromodulators </strong> are wrinkle relaxing injections of
+          botulinum toxin-commercially known as Botox, Xeomin, Dysport, Jeuveau-that are used to treat wrinkles, frown
+          lines and
+          crow's feet.<br>
+          <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> A minute amount of the neurotoxins is
+            injected directly into the underlying muscle,
+            causing it to relax and gradually smooth out the appearance of the overlying skin. The effects
             typically last three months. Also FDA-approved to treat excessive sweating.
           </li>
           <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
@@ -218,6 +335,7 @@
 
 
 
+
   <!-- bootstrap cdn -->
   <script src=" https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
@@ -229,38 +347,19 @@
 
 <footer>
   <!-- Copyright -->
-
-
-  <table class="d-flex justify-content-center p-3" style="background-color: rgb(102, 177, 194);">
+  <table class="d-flex justify-content-center p-3" style="background-color: #0ec1e4;">
     <tr>
       <td class="m-2">
         © 2023 Copyright :
-        <a class="text-white" href="https://evolvingandemergingu.com/"> Evolving and Emerging U</a>
+        <a class="text-white" href="https://evolvingandemergingu.com/"> Evolving and Emerging U, PLLC</a>
       </td>
       <td class="m-2">
         <span class="mb-4">
-          <!-- Facebook -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
-
-          <!-- Twitter -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
-
-          <!-- Google -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
-
-          <!-- Instagram -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
-
-          <!-- Linkedin -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
 
         </span>
       </td>
     </tr>
+    <a href="">ADA link goes here</a>
   </table>
+
 </footer>

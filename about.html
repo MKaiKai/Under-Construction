@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <!-- <link rel="stylesheet" href="css/style.css"> -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.scss">
   <link rel="import" href="services.html">
   <link rel="import" href="expectations.html">
   <link rel="import" href="faq.html">
@@ -72,7 +75,14 @@
 </nav>
 <!-- </header> -->
 
-<body style="background-color: #7ED7E3;">
+<body class="col-md-12" style="background-color: #7ED7E3;">
+  <!-- small banner on top with page's name -->
+  <div class="mask text-center bg-image" style="background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/012.webp');
+    height: 20vh;" alt="close-up of lavendar field">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <h1 class="text-white mb-0">About Us </h1>
+    </div>
+  </div>
   <!-- ABOUT ME SECTION -->
   <div class="container-about my-5" id="about" style="color: rgb(20, 165, 165); font-size: 16px;">
     <div class="card container my-5" style="background-color: " ;>
@@ -141,47 +151,32 @@
 
 <footer>
   <!-- Copyright -->
-  <table class="d-flex text-white align-items-center mt-2 p-3"
-    style="background-color: #1f8dcd; justify-content: space-evenly;">
+  <table class="d-flex text-white justify-content-center align-items-center mt-2 p-3"
+    style="background-color: #1f8dcd;">
     <tr>
       <td class="mt-2">
-        <div class="row align-items-center">
-          <div class="col-md-4">
-            <div class="dbox text-white text-center">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="fa fa-globe"></span>
-                <span><a class="text-white" style="text-decoration: none;margin-left: 5px;"
-                    href="https://evolvingandemergingu.com/">
-                    EEU © 2023</a>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="dbox text-center">
-              <div class="icon d-flex align-items-center justify-content-center me-2">
-                <span class="fa fa-paper-plane"></span><a href="mailto:info@evolvingandemergingu.com" class="text-white"
-                  style="text-decoration: none;margin-left: 5px;">Contact Us</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="dbox">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="fa fa-map-marker"> <a href="https://goo.gl/maps/R233NVZJTAjNTQdX7"
-                    style="color: white; text-decoration: none;"> Office Location</a></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="dbox">
-              <!-- <div class="icon d-flex align-items-center justify-content-center">
-                <span class="fa fa-phone"> (346) 541-8588 </span>
-              </div> -->
-            </div>
-          </div>
-        </div>
+        <span class="fa fa-globe"></span>
+        <span><a class="text-white" style="text-decoration: none; margin-left: 5px; margin-right: 32px;"
+            href="https://evolvingandemergingu.com/" alt="hyperlink of company name - Evolving and Emerging U">
+            Evolving & Emerging U © 2023</a>
+        </span>
+        <span class="fa fa-paper-plane"></span>
+        <span>
+          <a href="mailto:info@evolvingandemergingu.com" class="text-white"
+            style="text-decoration: none; margin-left: 5px; margin-right: 32px;">Contact Us</a>
+        </span>
+
+        <span class="fa fa-map-marker"></span>
+        <span>
+          <a href="https://goo.gl/maps/R233NVZJTAjNTQdX7"
+            style="color: white; text-decoration: none; margin-left: 5px; margin-right: 32px;"> Office Location</a>
+        </span>
+
+        <span class="fa fa-phone"> </span>
+        <span style="margin-left: 5px; margin-right: 32px;"> (346) 541-8588 </span>
       </td>
     </tr>
   </table>
 </footer>
+
+</html>

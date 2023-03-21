@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +13,7 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- <link rel="stylesheet" href="css/style.css"> -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.scss">
   <!-- link to relevant stylesheets -->
   <link rel="import" href="services.html">
   <link rel="import" href="expectations.html">
@@ -37,11 +40,11 @@
         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.html#about">About</a>
+        <a class="nav-link" href="about.html">About</a>
       </li>
       <li class="dropdown active">
         <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown"
-          aria-expanded="true">
+          aria-expanded="false">
           Services
         </a>
         <ul class="dropdown-menu">
@@ -75,8 +78,8 @@
 
 <body>
   <!-- Small banner on top with page's name -->
-  <div class="bg-image mb-0"
-    style="background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/012.webp');height: 25%;">
+  <div class="bg-image mb-0" style="background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/012.webp');
+    height: 20vh;" alt="close-up of lavendar field">
     <div class="d-flex justify-content-center align-items-center h-100">
       <h1 class="text-white mb-0">Contact Us </h1>
     </div>
@@ -155,59 +158,34 @@
 
 </body>
 
-<!-- <footer>
-  <! Copyright -->
-<!-- <table class="d-flex justify-content-center p-3" style="background-color: rgb(38, 188, 222);">
+<footer>
+  <!-- Copyright -->
+  <table class="d-flex text-white justify-content-center align-items-center mt-2 p-3"
+    style="background-color: #1f8dcd;">
     <tr>
-      <td class="m-2">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="dbox w-100 text-center">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="fa fa-map-marker"></span>
-              </div>
-              <div class="text">
-                <p style="color:rgb(16, 16, 239); font-size: 14px;"><span></span> 8313 Southwest Fwy, Ste 320B,Houston,
-                  Texas 77074</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="dbox w-100 text-center">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="fa fa-phone"></span>
-              </div>
-              <div class="text">
-                <p><span></span> <a href="tel://1234567920">(346) 541-8588</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="dbox w-100 text-center">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="fa fa-paper-plane"></span>
-              </div>
-              <div class="text">
-                <p><span> <a href="mailto:info@evolvingandemergingu.com">info@evolvingandemergingu.com</a>
-                </p></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="dbox w-100 text-center">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="fa fa-globe"></span>
-              </div>
-              <div class="text">
-                <p>
-                  <span><a class="text" href="https://evolvingandemergingu.com/"> EEU © 2023 </a>
-                  </span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <td class="mt-2">
+        <span class="fa fa-globe"></span>
+        <span><a class="text-white" style="text-decoration: none; margin-left: 5px; margin-right: 32px;"
+            href="https://evolvingandemergingu.com/" alt="hyperlink of company name - Evolving and Emerging U">
+            Evolving & Emerging U © 2023</a>
+        </span>
+        <span class="fa fa-paper-plane"></span>
+        <span>
+          <a href="mailto:info@evolvingandemergingu.com" class="text-white"
+            style="text-decoration: none; margin-left: 5px; margin-right: 32px;">Contact Us</a>
+        </span>
+
+        <span class="fa fa-map-marker"></span>
+        <span>
+          <a href="https://goo.gl/maps/R233NVZJTAjNTQdX7"
+            style="color: white; text-decoration: none; margin-left: 5px; margin-right: 32px;"> Office Location</a>
+        </span>
+
+        <span class="fa fa-phone"> </span>
+        <span style="margin-left: 5px; margin-right: 32px;"> (346) 541-8588 </span>
       </td>
     </tr>
   </table>
-</footer>  -->
+</footer>
+
+</html>

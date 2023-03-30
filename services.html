@@ -20,14 +20,14 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+
 <!-- <header> -->
 <!-- NAVIGATION BAR with dropdown-->
-<nav class="navbar navbar-expand-lg bg-body-tertiary"
-  style="color: rgb(20, 165, 165); font-size: 16px; background-color: white;">
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style="color: rgb(20, 165, 165); font-size: 16px;">
   <a href="index.html">
     <img src="images/EEU-logo.jpeg" alt="company logo" style="height: 12vh; width: auto; padding-right: 24px;">
   </a>
-  <p style="font-size: 24px; color:rgb(20, 165, 165); padding-top: 16px; padding-right: 32px; margin-right: 16px;">
+  <p style="font-size: 28px; color:rgb(20, 165, 165); padding-top: 16px; padding-right: 32px; margin-right: 16px;">
     <i>Evolving & Emerging U, PLLC</i>
   </p>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -35,7 +35,8 @@
     <span class="navbar-toggler-icon text-black"></span>
   </button>
   <div class="collapse navbar-collapse ms-4" id="navbarSupportedContent">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="padding-left: 2px; padding-right: 4px;">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0"
+      style="padding-left: 2px; padding-right: 4px; color: rgb(0, 0, 0); font-weight: 500;">
       <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
       </li>
@@ -43,19 +44,17 @@
         <a class="nav-link" href="about.html">About</a>
       </li>
       <li class="dropdown active">
-        <a class="nav-link dropdown-item dropdown-toggle active" href="services.html" role="button"
-          data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
           Services
         </a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="services.html#iv_therapies">IV Therapy</a>
+          <li><a class="dropdown-item" href="services.html#iv_therapies">IV Nutritional Therapy</a>
           </li>
           <hr class="dropdown-divider">
-          <li><a class="dropdown-item" href="services.html#hrt">Hormone Replacement Therapy</a></li>
+          <li><a class="dropdown-item" href="services.html#hrt">Bio Hormone Replacement Therapy</a></li>
           <hr class="dropdown-divider">
-          <li><a class="dropdown-item" href="services.html#weight-loss">Weight Loss</a></li>
-          <hr class="dropdown-divider">
-          <li><a class="dropdown-item" href="services.html#telemedicine">Telemedicine</a></li>
+          <li><a class="dropdown-item" href="services.html#weight-loss">Medical Weight Loss</a></li>
           <hr class="dropdown-divider">
           <li><a class="dropdown-item" href="services.html#aesthetics">Aesthetics</a></li>
         </ul>
@@ -71,32 +70,32 @@
       </li>
   </div>
   <li class="nav-item my-2" style="list-style: none; margin-right: 16px;">
-    <span class="fa fa-phone"> 346-541-8588</span>
+    <span class="fa fa-phone" style="font-size: 24px;"> 346-541-8588</span>
   </li>
 </nav>
 <!-- </header> -->
 
 <!-- small banner on top with page's name -->
-<div class="bg-image mb-0" style="background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/012.webp');
-  height: 20vh;" alt="close-up of lavendar field">
+<div class="mask p-5 text-center bg-image" style="background-image: url('images/background_blue.png');
+height: 22vh; background-repeat: no-repeat; background-size: cover; background-position: center; color: #12557c;"
+  alt="background image of blue blur">
   <div class="d-flex justify-content-center align-items-center h-100">
-    <h1 class="text-white mb-0">Services </h1>
+    <h1 class="mb-0">Services </h1>
   </div>
 </div>
 
-<body style="background-color: #7ED7E3;">
-
+<body>
   <div class="container">
     <!-- iv therapy services card and text -->
     <div class="container my-5" id="iv_therapies">
-      <ul class="card p-4" style="list-style: none; font-size: 24px; color: rgb(9, 127, 127);">
+      <ul class="card p-4" style="list-style: none; font-size: 24px; color: rgb(0, 0, 0);">
         <p><strong> IV Therapy </strong></p>
         <ul class="p-3" style="list-style: none; border-width: 3px;">
-          <p style="font-size: 16px;"> <strong> IV Nutrition Therapy </strong> is a medical treatment by which sterile
+          <p style="font-size: 16px;"> <strong> IV Nutritional Therapy </strong> is a medical treatment by which sterile
             solutions of vitamins, minerals, and micronutrients are infused directly into the veins of the
             patient.
             <br>
-            <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;">IV nutrition therapy
+            <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;">IV nutritional therapy
               bypasses digestion to provide quicker delivery to the cells that need it to replenish deficiencies
               or aid in healing as well as to improve the body’s state of health and overall well-being.
             </li>
@@ -109,14 +108,41 @@
               <strong><i>Target audience</i></strong> is all person who have poor diet,
               fatigue, dehydration, acute illness, and adjunct to support certain health conditions.
             </li>
-          </p>
+            <!-- TO TOP BUTTON -->
+          <div class="btn"
+            style="border-radius: 20px; background-color: rgb(9, 127, 127); margin-left: 16px; margin-top: 48px; margin-bottom: 0px;">
+            <a href="services.html" style="font-size: 16px; text-decoration: none; padding: 4px; color: white;">
+              Back to TOP</a>
+          </div>
         </ul>
-        <ul class="p-3 my-3" id="hrt" style="list-style: none; border-width: 3px;">
+        <!-- END of BUtton -->
+        </p>
+        <hr>
+        <!-- DISCLAIMER -->
+        <div>
+          <p style="font-size: 16px; margin: 16px 32px; color: black;">
+            <strong><i>Disclaimer</i></strong><i>
+          </p>
+          <p style="font-size: 14px; margin: 16px 32px; color: black;">
+            The product and/or services our medical staff provide are not intended to diagnose, treat, cure, or
+            prevent any disease. Results from services and products may vary. All statements regarding these services
+            and products for IV Vitamin Therapy have not been evaluated by the Food and Drug Administration. We
+            currently do not provide IV therapy/booster services to anyone under the age of 16, pregnant,
+            breastfeeding, or have conditions/diseases contradictory to the services we offer. All medications and
+            vitamin supplements are provided by federally regulated 503A/503B compounding pharmacies and/or licensed
+            medical distributors.
+            </i>
+          </p>
+        </div>
+    </div>
+    </ul>
+
+    <!-- <ul class="p-3 my-3" id="hrt" style="list-style: none; border-width: 3px;">
           <p style="font-size: 16px;"> <strong> Bio-identical Hormone Replacement Therapy </strong> is the use of
             bio-identical hormones that have exactly the same chemical and molecular structure as hormones that are
             produced in the human body.
             <br>
-            <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;">body. Bio-identical hormones are
+            <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;">Bio-identical hormones are
               derived from plants. Bio-identical hormones include
               Estrone (E1), Estradiol (E2), Estriol (E3), Progesterone, Testosterone, Dehydroepiandrosterone
               (DHEA), and Pregnenolone. Bioidentical hormone prescription is custom compounded in
@@ -125,7 +151,7 @@
               vaginal or rectal suppositories.
             </li>
             <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
-              <strong> <i>Benefits</i></strong>for men and women are protection against heart
+              <strong> <i>Benefits</i></strong> for men and women are protection against heart
               disease, reduce risk of certain cancers, improve cholesterol and lipid profile, reduce risk of
               osteoporosis and improve bone density, improve libido, energy, and sleep, better mood,
               concentration, and cognitive function, and improve muscle mass.
@@ -135,8 +161,8 @@
               in symptoms.
             </li>
           </p>
-        </ul>
-        <ul class="p-3 my-3" style="list-style: none; border-width: 3px;">
+        </ul> -->
+    <!-- <ul class="p-3 my-3" style="list-style: none; border-width: 3px;">
 
           <p style="font-size: 16px;"> <strong> Neurotoxins/Neuromodulators </strong> are wrinkle relaxing injections
             of botulinum toxin-commercially known as Botox, Xeomin, Dysport, Jeuveau-that are used to treat wrinkles,
@@ -155,10 +181,39 @@
               <strong><i> Target audience </i></strong> is all person
               wanting to smooth and diminish wrinkles
             </li>
-          </p>
-          <!-- end of IV Therapy <ul></ul> -->
+      </p>
+      <!- end of IV Therapy <ul></ul> -->
 
-          <!-- TO TOP BUTTON -->
+
+
+    <!-- iv therapy services card and text -->
+    <div class="container my-5" id="iv_therapies">
+      <ul class="card p-4" style="list-style: none; font-size: 24px; color: rgb(0, 0, 0);">
+        <p><strong> BHR Therapy </strong></p>
+        <ul class="p-3 my-3" id="hrt" style="list-style: none; border-width: 3px;">
+          <p style="font-size: 16px;"> <strong> Bio-identical Hormone Replacement Therapy </strong> is the use of
+            bio-identical hormones that have exactly the same chemical and molecular structure as hormones that are
+            produced in the human body.
+            <br>
+            <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;">Bio-identical hormones are
+              derived from plants. Bio-identical hormones include
+              Estrone (E1), Estradiol (E2), Estriol (E3), Progesterone, Testosterone, Dehydroepiandrosterone
+              (DHEA), and Pregnenolone. Bioidentical hormone prescription is custom compounded in
+              specific pharmacies in various preparations of BHRT using micronized powders in a variety of
+              dosage forms such as oral capsules, sublingual troches or tabs, transdermal cream or gel, and
+              vaginal or rectal suppositories.
+            </li>
+            <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
+              <strong> <i>Benefits</i></strong> for men and women are protection against heart
+              disease, reduce risk of certain cancers, improve cholesterol and lipid profile, reduce risk of
+              osteoporosis and improve bone density, improve libido, energy, and sleep, better mood,
+              concentration, and cognitive function, and improve muscle mass.
+              <br>
+              <br>
+              <strong><i> Target audience </i></strong> men and women who are aging and hormone levels drop resulting
+              in symptoms.
+            </li>
+            <!-- TO TOP BUTTON -->
           <div class="btn"
             style="border-radius: 20px; background-color: rgb(9, 127, 127); margin-left: 16px; margin-top: 48px; margin-bottom: 0px;">
             <a href="services.html" style="font-size: 16px; text-decoration: none; padding: 4px; color: white;">
@@ -166,29 +221,33 @@
           </div>
         </ul>
         <!-- END of BUtton -->
-        <hr>
-        <!-- DISCLAIMER -->
-        <div>
-          <p style="font-size: 16px; margin: 16px 32px; color: black;">
-            <strong><i>Disclaimer</i></strong><i>
-          </p>
-          <p style="font-size: 14px; margin: 16px 32px; color: black;">
-            The product and/or services our medical staff provide are not intended to diagnose, treat, cure, or
-            prevent any disease. Results from services and products may vary. All statements regarding these services
-            and products for IV Vitamin Therapy have not been evaluated by the Food and Drug Administration. We
-            currently do not provide IV therapy/booster services to anyone under the age of 16, pregnant,
-            breastfeeding, or have conditions/diseases contradictory to the services we offer. All medications and
-            vitamin supplements are provided by federally regulated 503A/503B compounding pharmacies and/or licensed
-            medical distributors.
-            </i>
-          </p>
-        </div>
-        <hr>
+        </p>
+      </ul>
+      <!-- end of BHR Therapy <ul></ul> -->
+
+      <hr>
+      <!-- DISCLAIMER -->
+      <!-- <div>
+        <p style="font-size: 16px; margin: 16px 32px; color: black;">
+          <strong><i>Disclaimer</i></strong><i>
+        </p>
+        <p style="font-size: 14px; margin: 16px 32px; color: black;">
+          The product and/or services our medical staff provide are not intended to diagnose, treat, cure, or
+          prevent any disease. Results from services and products may vary. All statements regarding these services
+          and products for IV Vitamin Therapy have not been evaluated by the Food and Drug Administration. We
+          currently do not provide IV therapy/booster services to anyone under the age of 16, pregnant,
+          breastfeeding, or have conditions/diseases contradictory to the services we offer. All medications and
+          vitamin supplements are provided by federally regulated 503A/503B compounding pharmacies and/or licensed
+          medical distributors.
+          </i>
+        </p>
+      </div>
+      <hr> -->
     </div>
 
     <!-- WEIGHT LOSS card and text -->
     <div class="container my-5" id="weight-loss" style="">
-      <ul class="card p-4" style="list-style: none; font-size: 24px; color: rgb(9, 127, 127);">
+      <ul class="card p-4" style="list-style: none; font-size: 24px; color: rgb(0, 0, 0);">
         <p><strong> Weight Loss</strong></p>
         <ul class=" p-3" style="list-style: none; border-width: 3px;">
 
@@ -251,73 +310,9 @@
         </ul>
     </div>
 
-    <!--Telemedicine card and text -->
-    <div class="container my-5" id="telemedicine" style="">
-      <ul class="card p-4" style="list-style: none; font-size: 24px; color: rgb(9, 127, 127);">
-        <p><strong>Telemedicine</strong></p>
-        <ul class=" p-3" style="list-style: none; border-width: 3px;">
-          <p style="font-size: 16px;"> <strong> Telemedicine </strong> is a technique used to <br>
-            <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel aliquam totam laborum beatae, nemo ipsa
-              iusto
-              distinctio omnis autem debitis asperiores ex eaque sapiente illum aut optio reprehenderit doloremque
-              fugit!
-              Eum laudantium sint necessitatibus error quis amet aut libero veritatis facere fuga corrupti perspiciatis,
-              nobis, ad, expedita optio. Eius dicta quo quidem quas sunt odio doloremque earum neque iure quibusdam.
-              Illo esse alias eligendi, nulla officia neque itaque ullam soluta laudantium voluptates at recusandae
-              mollitia accusamus quibusdam nam veniam laboriosam, reprehenderit nisi ea nobis numquam sapiente dolore
-              blanditiis! Odit, nam?
-            </li>
-            <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
-              <strong> <i>Benefits</i></strong> for .
-              <br>
-              <br>
-              <strong><i>Target audience</i></strong> is
-              .
-            </li>
-          </p>
-        </ul>
-        <ul class=" p-3 my-3" style="list-style: none; border-width: 3px;">
-          <p style="font-size: 16px;"> <strong>Telemedicine </strong> is <br>
-            <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;">Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Assumenda nobis in sint quidem ad blanditiis, a totam, ut expedita laudantium aperiam.
-              Error, unde quia! Eaque illo nobis quod suscipit in?
-            </li>
-            <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
-              <strong> <i>Benefits</i></strong>for
-              <br>
-              <br>
-              <strong><i> Target audience </i></strong> is
-            </li>
-          </p>
-        </ul>
-        <ul class="p-3 my-3" style="list-style: none; border-width: 3px; ">
-          <p style="font-size: 16px;"> <strong>Telemedicine </strong> are <br>
-            <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px;"> Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Obcaecati modi nesciunt rem magni debitis? Debitis deleniti natus aliquid dicta
-              doloribus
-              quod autem, voluptatem commodi doloremque suscipit vero quidem a tenetur.
-            </li>
-            <li style="font-size: 16px; padding-left: 24px; margin-bottom: 8px">
-              <strong> <i>Benefits</i></strong> for
-
-              <br>
-              <br>
-              <strong><i> Target audience </i></strong> is
-            </li>
-          </p>
-          <!-- end ofTelemedicine <ul></ul> -->
-          <div class="btn mb-3"
-            style="border-radius: 20px; background-color: rgb(9, 127, 127); margin-left: 16px; margin-top: 48px; margin-bottom: 0px;">
-            <a href="services.html" style="font-size: 16px; padding: 4px; text-decoration: none; color: white;">
-              Back to TOP</a>
-          </div>
-        </ul>
-    </div>
-
     <!-- aesthetics services card and text -->
     <div class="container my-5" id="aesthetics" style="">
-      <ul class="card p-4" style="list-style: none; font-size: 24px; color: rgb(9, 127, 127);">
+      <ul class="card p-4" style="list-style: none; font-size: 24px; color:  rgb(0, 0, 0);">
         <p><strong> Aesthetics</strong></p>
         <ul class=" p-3" style="list-style: none; border-width: 3px;">
           <p style="font-size: 16px;"> <strong> Chemical Peel </strong> is a technique used to improve the appearance

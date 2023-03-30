@@ -10,6 +10,10 @@ nav-link {
   font-weight: lighter;
 }
 
+btn {
+  color: black;
+  background-color: blue;
+}
 
 /* img {
   width: 150px; */

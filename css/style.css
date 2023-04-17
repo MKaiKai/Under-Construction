@@ -60,7 +60,6 @@ blockquote {
   font-size: 30px;
 }
 
-.contact {}
 
 #footer {
   display: flex;
@@ -132,6 +131,8 @@ blockquote {
   #emerson {
     font-size: 22px;
   }
+
+
 
   .footer {
     grid-column: 1/ 2;
@@ -220,6 +221,13 @@ blockquote {
   #emerson {
     font-size: 18px;
   }
+
+  /* 
+  .container-companycontact {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+  } */
 
   #footer {
     grid-column: 1 / 2;

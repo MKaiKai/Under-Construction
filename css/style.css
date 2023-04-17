@@ -60,6 +60,8 @@ blockquote {
   font-size: 30px;
 }
 
+.contact {}
+
 #footer {
   display: flex;
   justify-content: center;

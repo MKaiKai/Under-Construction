@@ -23,22 +23,30 @@
   font-size: 22px;
 }
 
+#consultation {
+  background-color: #225894;
+  color: white;
+}
+
 #consultation:hover {
-  background-color: rgb(77, 212, 77);
+  background-color: rgb(42, 128, 42);
 }
 
 #top {
   border-radius: 12px;
-  background-color: #1ec2c2;
+  background-color: #148080;
   margin-top: 16px;
   margin-bottom: 16px;
   padding: 8px;
   width: 200px;
 }
 
-#top:hover {
-  background-color: rgb(231, 33, 132);
+#top:hover,
+#top:focus {
+  color: #148080;
+  background-color: rgb(37, 175, 125);
 }
+
 
 #bhrt {
   padding: 16.5px 8px;
